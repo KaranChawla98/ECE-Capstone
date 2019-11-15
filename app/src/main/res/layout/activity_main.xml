@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tv"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <View
+            android:layout_width="10dp"
+            android:background="#000000"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+        <View
+            android:id="@+id/string1"
+            android:layout_width="10dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="#FFFF0000" />
+
+        <View
+            android:layout_width="10dp"
+            android:background="#000000"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+        <View
+            android:id="@+id/string2"
+            android:layout_width="10dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="#FF00FF00" />
+
+        <View
+            android:layout_width="10dp"
+            android:background="#000000"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+        <View
+            android:id="@+id/string3"
+            android:layout_width="10dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="#FF0000FF" />
+
+        <View
+            android:layout_width="10dp"
+            android:background="#000000"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+        <View
+            android:id="@+id/string4"
+            android:layout_width="10dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF00" />
+
+        <View
+            android:layout_width="10dp"
+            android:background="#000000"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+        <View
+            android:id="@+id/string5"
+            android:layout_width="10dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="#ff00ff" />
+
+        <View
+            android:layout_width="10dp"
+            android:background="#000000"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+        <View
+            android:id="@+id/string6"
+            android:layout_width="10dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="#00ffff" />
+        <View
+            android:layout_width="10dp"
+            android:background="#000000"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:background="@android:color/transparent"
+            android:layout_weight="5" />
+        <View
+            android:id="@+id/fret1"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="10dp"
+            android:background="#ffffff" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:background="@android:color/transparent"
+            android:layout_weight="5" />
+        <View
+            android:id="@+id/fret2"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="10dp"
+            android:background="#ffffff" />
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:background="@android:color/transparent"
+            android:layout_weight="5" />
+
+<!--        <View-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="10dp"-->
+<!--            android:background="#000000"-->
+<!--            android:layout_weight="5" />-->
+    </LinearLayout>
+
+
+    <com.example.shred.MultitouchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    />
+
+
+
+</RelativeLayout>
